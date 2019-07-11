@@ -1,15 +1,14 @@
-list_speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
+# Write your code here.
 def badge_maker(name)
   "Hello, my name is #{name}"
 end
 
+list_speakers = [Edsger, Ada, Charles, Alan,
+                Grace, Linus, Matz]
 def batch_badge_creator(speakers)
-  badge_message = []
   speakers.each do |who|
-    badge_message << badge_maker(who)
+    badge_maker(who)
   end
-  return badge_message
 end
 
 def assign_rooms(name, room)
