@@ -1,5 +1,5 @@
 # Write your code here.
-list_speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+list_speakers = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
 
 def badge_maker(name)
   "Hello, my name is #{name}"
