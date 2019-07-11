@@ -6,7 +6,8 @@ end
 list_speakers = [Edsger, Ada, Charles, Alan, Grace,
                  Linus, Matz]
 def batch_badge_creator(speakers)
-
+  speakers.each do |who|
+    badge_maker(who)
 end
 
 def assign_rooms()
